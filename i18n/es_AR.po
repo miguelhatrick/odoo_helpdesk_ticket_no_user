@@ -1,0 +1,68 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_helpdesk_ticket_no_user
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-22 23:31+0000\n"
+"PO-Revision-Date: 2021-04-22 20:33-0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Add Attachments"
+msgstr "Añadir Adjuntos"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Category"
+msgstr "Categoría"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Contact Us"
+msgstr "Contáctenos"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Description"
+msgstr "Descripción"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Name"
+msgstr "Nombre"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Send"
+msgstr "Enviar"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.portal_create_open_ticket
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.thank_you
+msgid "Thank you"
+msgstr "Gracias"
+
+#. module: odoo_helpdesk_ticket_no_user
+#: model_terms:ir.ui.view,arch_db:odoo_helpdesk_ticket_no_user.thank_you
+msgid "Your inquiry was received and we will answer soon!"
+msgstr "Su consulta fue recibida y la responderemos pronto!"
