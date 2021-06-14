@@ -21,6 +21,7 @@
     # always loaded
     'data': [
         'views/helpdesk_ticket_templates.xml',
+        'views/helpdesk_ticket_config.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-# from . import helpdesk_category, helpdesk_ticket
+from . import auto_ticket_settings
