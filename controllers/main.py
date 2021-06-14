@@ -2,6 +2,9 @@ import logging
 import werkzeug
 import odoo.http as http
 import base64
+import json
+import requests
+
 from openerp.http import request
 _logger = logging.getLogger(__name__)
 
@@ -20,6 +23,20 @@ class HelpdeskOpenTicketController(http.Controller):
     @http.route('/open_ticket/submitted',
                 type="http", auth="public", website=True, csrf=True)
     def submit_ticket(self, **kw):
+
+        client_key = kw['g-recaptcha-response']
+        secret_key = '6LdP2S8bAAAAAGg3jGJsr3WCSKqx1eBaawSv-K4J'
+        captcha_data = {
+            'secret': secret_key,
+            'response': client_key
+        }
+        r = requests.post('https://www.google.com/recaptcha/api/siteverify', data=captcha_data)
+        response = json.loads(r.text)
+        verify = response['success']
+
+        if not verify:
+            return self.create_new_ticket()
+
         vals = {
             'partner_name': kw.get('name'),
             'company_id': None,
